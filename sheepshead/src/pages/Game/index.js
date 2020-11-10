@@ -7,11 +7,27 @@ import Container from '../../components/Container';
 function Game(){
 
   let deck;
+  let scores;
 
   const [getCards, setCards] = useState(cards);
-  const [getScores, setScores] = useState([0,0,0,0,0]);
+  const [getScores, setScores] = useState([1,2,3,4,5]);
 
-  deck = getCards;
+  const shuffle = (arr) => {
+    let j, x;
+
+    for(let i=arr.length-1; i>0; i--){
+      j = Math.floor(Math.random() * (i+1));
+      x = arr[i];
+      arr[i] = arr[j];
+      arr[j] = x;
+    }
+
+    return arr;
+  }
+
+  deck = shuffle(getCards);
+
+  scores = getScores;
 
   let player1Hand = getCards.slice(0,6);
   let player2Hand = getCards.slice(6,12);
@@ -35,9 +51,12 @@ function Game(){
 
   return (
     <Container>
+      Player 1 Hand:
       <Hand>
         {player1Hand}
       </Hand>
+      Player 1 Score:
+      {scores[0]} 
     </Container>
   )
 }

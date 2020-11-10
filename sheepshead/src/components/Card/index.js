@@ -1,11 +1,12 @@
-const Card = (props) => {
+import React from 'react';
+import Card from react-bootstrap/Card;
+
+function PlayingCard(props){
 
   return (
-    <div className='card'>
-      <h1>{props.name}</h1>
-      <img src={props.image}></img>
-    </div>
+    <Card>
+    </Card>
   )
 }
 
-export default Card;
+export default PlayingCard;

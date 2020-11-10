@@ -12,6 +12,11 @@ const Game = () =>{
       cards
     ])
   })
+
+  const deal = () => {
+    
+  }
+
 }
 
 export default Game;

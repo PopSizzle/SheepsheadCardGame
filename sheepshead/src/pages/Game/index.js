@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Hand from '../../components/Hand';
 import Card from '../../components/Card';
 import cards from '../../assets/cards';
+import Container from '../../components/Container';
 
 function Game(){
 
@@ -33,13 +34,11 @@ function Game(){
   }
 
   return (
-    <div>
-      Player 1 hand: {hand1}
-      Player 2 hand: {hand2}
-      Player 3 hand: {hand3}
-      Player 4 hand: {hand4}
-      Player 5 hand: {hand5}
-    </div>
+    <Container>
+      <Hand>
+        {player1Hand}
+      </Hand>
+    </Container>
   )
 }
 

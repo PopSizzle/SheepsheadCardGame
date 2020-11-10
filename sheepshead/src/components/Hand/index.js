@@ -3,11 +3,12 @@ import Card from '../Card';
 
 const Hand = (props) => {
 
+  console.log(props);
+
   return(
     <Container>
-      {props.map(object => (
-        <Card>
-          object.name
+      {props.children.map(object => (
+        <Card data={object}>
         </Card>
       ))}
     </Container>

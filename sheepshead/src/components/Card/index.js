@@ -5,6 +5,7 @@ function PlayingCard(props){
 
   return (
     <Card>
+      Name: {props.data.name}
     </Card>
   )
 }

@@ -13,10 +13,7 @@ const Game = () =>{
     ])
   })
 
-  const deal = () => {
-    
-  }
-
+  
 }
 
 export default Game;

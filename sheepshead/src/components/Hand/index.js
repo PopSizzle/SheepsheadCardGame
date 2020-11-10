@@ -1,8 +1,9 @@
+import Card from '../Card';
+
 const Hand = (props) => {
 
   return(
     <div className='hand'>
-      
     </div>
   )
 }

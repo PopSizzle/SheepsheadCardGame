@@ -28,7 +28,7 @@ const cards = [
     rank: 4,
   },
   {
-    name: 'Ace of Diamonds',
+    name: 'Jack of Clubs',
     suit: 'Trump',
     image: '',
     points: 2,
@@ -222,49 +222,7 @@ const cards = [
     image: '',
     points: 0,
     rank: 6,
-  },
-    {
-    name: 'Ace of Clubs',
-    suit: 'clubs',
-    image: '',
-    points: 11,
-    rank: 1,
-  },
-  {
-    name: 'Ten of Clubs',
-    suit: 'clubs',
-    image: '',
-    points: 10,
-    rank: 2,
-  },
-  {
-    name: 'King of Clubs',
-    suit: 'clubs',
-    image: '',
-    points: 4,
-    rank: 3,
-  },
-  {
-    name: 'Nine of Clubs',
-    suit: 'clubs',
-    image: '',
-    points: 0,
-    rank: 4,
-  },
-  {
-    name: 'Eight of Clubs',
-    suit: 'clubs',
-    image: '',
-    points: 0,
-    rank: 5,
-  },
-  {
-    name: 'Seven of Clubs',
-    suit: 'clubs',
-    image: '',
-    points: 0,
-    rank: 6,
-  },
+  }
 ]
 
 export default cards;

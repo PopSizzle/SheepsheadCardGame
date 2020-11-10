@@ -49,6 +49,8 @@ function Game(){
     hand5 += player5Hand[i].name;
   }
 
+  console.log(deck);
+
   return (
     <Container>
       Player 1 Hand:
@@ -56,7 +58,33 @@ function Game(){
         {player1Hand}
       </Hand>
       Player 1 Score:
-      {scores[0]} 
+      {scores[0]}
+      Player 2 Hand:
+      <Hand>
+        {player2Hand}
+      </Hand>
+      Player 2 Score:
+      {scores[1]}
+      Player 3 Hand:
+      <Hand>
+        {player3Hand}
+      </Hand>
+      Player 3 Score:
+      {scores[2]}
+      Player 4 Hand:
+      <Hand>
+        {player4Hand}
+      </Hand>
+      Player 4 Score:
+      {scores[3]}
+      Player 5 Hand:
+      <Hand>
+        {player5Hand}
+      </Hand>
+      Player 5 Score:
+      {scores[4]}
+
+
     </Container>
   )
 }

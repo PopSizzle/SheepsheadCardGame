@@ -12,15 +12,11 @@ function Game(){
 
   deck = getCards;
 
-  console.log(deck);
-
   let player1Hand = getCards.slice(0,6);
   let player2Hand = getCards.slice(6,12);
   let player3Hand = getCards.slice(12,18);
   let player4Hand = getCards.slice(18,24);
   let player5Hand = getCards.slice(24,30);
-
-  console.log(player1Hand);
 
   let hand1 = '';
   let hand2 = '';

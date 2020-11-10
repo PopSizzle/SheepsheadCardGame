@@ -1,12 +1,12 @@
-// import React from 'react';
-// import Card from react-bootstrap/Card;
+import React from 'react';
+import Card from 'react-bootstrap/Card';
 
-// function PlayingCard(props){
+function PlayingCard(props){
 
-//   return (
-    // <Card>
-    // </Card>
-//   )
-// }
+  return (
+    <Card>
+    </Card>
+  )
+}
 
-// export default PlayingCard;
+export default PlayingCard;

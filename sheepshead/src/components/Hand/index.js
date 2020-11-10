@@ -1,9 +1,16 @@
+import Container from '../Container';
 import Card from '../Card';
 
 const Hand = (props) => {
 
   return(
-    props.map()
+    <Container>
+      {props.map(object => (
+        <Card>
+          object.name
+        </Card>
+      ))}
+    </Container>
   )
 }
 

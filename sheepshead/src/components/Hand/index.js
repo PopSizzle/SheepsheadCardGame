@@ -1,5 +1,5 @@
 import Container from '../Container';
-import Card from '../Card';
+import PlayingCard from '../Card';
 
 // Create a hand with 6 cards in it.
 const Hand = (props) => {
@@ -9,8 +9,8 @@ const Hand = (props) => {
   return(
     <Container>
       {props.children.map(object => (
-        <Card data={object}>
-        </Card>
+        <PlayingCard data={object}>
+        </PlayingCard>
       ))}
     </Container>
   )

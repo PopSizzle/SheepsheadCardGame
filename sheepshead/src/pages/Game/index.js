@@ -35,37 +35,23 @@ function Game(){
   let player4Hand = getCards.slice(18,24);
   let player5Hand = getCards.slice(24,30);
 
-  let hand1 = '';
-  let hand2 = '';
-  let hand3 = '';
-  let hand4 = '';
-  let hand5 = '';
-
-  for(let i=0; i<6; i++){
-    hand1 += player1Hand[i].name;
-    hand2 += player2Hand[i].name;
-    hand3 += player3Hand[i].name;
-    hand4 += player4Hand[i].name;
-    hand5 += player5Hand[i].name;
-  }
-
   console.log(deck);
 
   return (
     <Container>
-      <Hand>
+      <Hand className='hand1'>
         {player1Hand}
       </Hand>
-      <Hand>
+      <Hand className='hand2'>
         {player2Hand}
       </Hand>
-      <Hand>
+      <Hand className='hand3'>
         {player3Hand}
       </Hand>
-      <Hand>
+      <Hand className='hand4'>
         {player4Hand}
       </Hand>
-      <Hand>
+      <Hand className='hand5'>
         {player5Hand}
       </Hand>
 

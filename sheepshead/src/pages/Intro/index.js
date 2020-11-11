@@ -72,7 +72,7 @@ function Intro() {
 
         6. Once all 6 tricks have been played, each team tallies their point totals (listed above). There are 120 total points in each hand. Post round scoring is as follows:
 
-        Picking team score:
+        Picking team score: resulting effect on individual player scores
 
         0: Picker -6, partner -3, each defender +3
 

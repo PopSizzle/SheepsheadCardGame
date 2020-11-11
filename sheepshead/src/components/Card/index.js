@@ -4,9 +4,9 @@ import Card from 'react-bootstrap/Card';
 function PlayingCard(props){
 
   return (
-    <Card>
+    <card>
       Name: {props.data.name}
-    </Card>
+    </card>
   )
 }
 

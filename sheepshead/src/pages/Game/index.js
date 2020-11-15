@@ -3,6 +3,7 @@ import Hand from '../../components/Hand';
 import Card from '../../components/Card';
 import cards from '../../assets/cards';
 import Container from '../../components/Container';
+import css from './game.css';
 
 function Game(){
 

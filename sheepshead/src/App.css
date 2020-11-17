@@ -42,3 +42,33 @@
   bottom: 50;
   left: 200;
 }
+
+.hand2 {
+  position: fixed;
+  bottom: 300;
+  left: 100;
+}
+
+.hand3 {
+  position: fixed;
+  bottom: 300;
+  right: 100;
+}
+
+.hand4 {
+  position: fixed;
+  bottom: 500;
+  left: 150;
+}
+
+.hand5 {
+  position: fixed;
+  bottom: 50;
+  left: 200;
+}
+
+.hand6 {
+  position: fixed;
+  bottom: 500;
+  right: 200;
+}
